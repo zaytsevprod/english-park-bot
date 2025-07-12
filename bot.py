@@ -1,6 +1,6 @@
 import logging
-from aiogram import Bot, Dispatcher, executor, types
-from config import TELEGRAM_BOT_TOKEN
+from aiogram import Bot, Dispatcher, types
+from aiogram.utils import executor
 from handlers import get_gpt_reply
 from tts import synthesize_text
 from stt import transcribe_audio

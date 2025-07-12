@@ -1,5 +1,0 @@
-services:
-  - type: web
-    name: english-park-bot
-    env: python
-    startCommand: "python bot.py"

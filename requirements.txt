@@ -1,4 +1,5 @@
+python-dotenv
 aiogram==2.25.2
-openai
-google-cloud-texttospeech
-aiohttp==3.9.5
+aiohttp==3.8.6
+gTTS
+SpeechRecognition
